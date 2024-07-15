@@ -2,6 +2,8 @@
 
 ## Introduction
 ![Screenshot 2024-07-15 005311](https://github.com/user-attachments/assets/fa36393b-2717-4526-a1a8-9217b765a69a)
+![Screenshot 2024-07-15 013720](https://github.com/user-attachments/assets/cf81963d-9dc9-4fee-bc12-0d3abc71caf5)
+![Screenshot 2024-07-15 013658](https://github.com/user-attachments/assets/af7b428b-59d4-44d3-b2a0-a33c50b187ce)
 
 A brief introduction about yourself and your portfolio. You can include your professional background, your interests, and what technologies you specialize in.
 
