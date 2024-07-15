@@ -1,0 +1,352 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: "Poppins";
+}
+
+html {
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
+body {
+    background: black;
+    color: greenyellow;
+    font-size: 1.6rem;
+}
+
+/* Header Styles */
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 2rem 6%;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+.footer{
+    color: greenyellow;
+    text-align: center;
+    font-size: 2rem;
+    padding: 10px;
+    position: fixed;
+    backdrop-filter: blur(10px);
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+#menu-icon {
+    font-size: 3.6rem;
+    color: white;
+    display: none;
+}
+
+.logo {
+    font-size: 3rem;
+    color: greenyellow;
+    font-weight: 800;
+    cursor: pointer;
+    transition: 0.3s ease;
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.1));
+}
+
+.logo:hover {
+    transform: scale(.9);
+}
+
+span {
+    color: whitesmoke;
+}
+
+.navbar {
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.2));
+}
+
+.navbar a {
+    font-size: 1.8rem;
+    color: whitesmoke;
+    margin-left: 2rem;
+    font-weight: 500;
+    border-bottom: transparent;
+    transition: 0.4s ease;
+}
+
+.navbar a:hover {
+    border-bottom: 3px solid greenyellow;
+}
+
+.navbar span {
+    color: greenyellow;
+}
+
+.navbar span:hover {
+    border-bottom: 3px solid whitesmoke;
+}
+
+/* Bio Section Styles */
+.bio {
+    padding: 20px;
+    margin: 70px auto;
+    max-width: 800px;
+    background-color: black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bio .home-img img {
+    max-width: 25%;
+    height: auto;
+    border-radius: 15%;
+    transition: 0.3s ease;
+}
+
+.bio .home-img img:hover {
+    box-shadow: 0 0 25px greenyellow;
+    transform: translateY(-10px);
+}
+
+.bio .name {
+    text-align: center;
+    position: relative;
+    max-width: min-content;
+    right: 100px;
+}
+.name:hover{
+    color: #04AA6D;
+    transform: translateY(-10px);
+}
+.bio .name h1 {
+    font-size: 2.5rem;
+    color: greenyellow;
+    display: flex;
+    position: relative;
+}
+.name span{
+    color: greenyellow;
+}
+.bio .name p {
+    font-size: 1.9rem;
+    color: whitesmoke;
+}
+
+/* Skills Section Styles */
+.skills-section {
+    display: flex;
+    text-align: center;
+    margin: 25px auto;
+    max-width: 800px;
+    position: relative;
+    bottom: 90px;
+    gap: 5rem
+}
+/* .skills-section:hover{
+    transform: translateY(-10px);
+} */
+.skills-list {
+    width: 75%;
+}
+.skills-list:hover{
+    transform: translateY(-10px);
+}
+
+.skills-list h1 {
+    font-size: 2.4rem;
+    margin-bottom: 10px;
+    color: greenyellow;
+}
+
+.skills-list ul {
+    list-style-type: none;
+    width: 180px;
+    padding: 0;
+    
+}
+
+.skills-list ul li {
+    margin-bottom: 10px;
+    font-size: 1.6rem;
+    color: whitesmoke;
+}
+
+.skills-list ul li span {
+    font-weight: bold;
+    color: greenyellow;
+}
+
+.skills-list ul li span1 {
+    font-style: italic;
+    color: greenyellow;
+}
+
+.skills-chart {
+    width: 95%;
+}
+.skills-chart:hover{
+    transform: translateY(-10px);
+}
+.skill {
+    margin-bottom: 5px;
+}
+
+.skill p {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    width: 100%;
+    background-color: #ddd;
+    border-radius: 25px;
+    overflow: hidden;
+}
+
+.skill-level {
+    height: 25px;
+    line-height: 25px;
+    color: white;
+    text-align: right;
+    padding-right: 10px;
+    border-radius: 25px;
+}
+.key-strengths{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 80px
+}
+.resume-item:hover{
+    transform: translateY(-10px);
+}
+/* .key-strengths:hover{
+    transform: translateY(-10px);
+} */
+.social-icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.social-icons a{
+    display: inline-block;
+    position: relative;
+    max-width: auto;
+    left: 440px;
+    bottom: 120px;
+    font-size: 3.5rem;
+    padding: 1rem;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.social-icons a:hover{
+    box-shadow: 0 0 25px  black, 0 0 40px;
+    color: greenyellow;
+    transform: scale(1.1)translateY(-10px);
+    -webkit-box-reflect: below 0px linear-gradient(to bottom, rgba(0,0,0,0.0), rgba(0,0,0,0.2))
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.html {
+    width: 70%;
+    background-color: #04AA6D;
+}
+
+.css {
+    width: 70%;
+    background-color: #2196F3;
+}
+
+.js {
+    width: 15%;
+    background-color: #f44336;
+}
+
+.python {
+    width: 50%;
+    background-color: #ff9800;
+}
+
+@media only screen and (max-width: 480px) {
+    .home-content {
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+        padding: 50px;
+    }
+
+    .home-img img {
+        max-width: 50%;
+    }
+}
+
+/* Tablets (portrait) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    .home-content {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        padding: 100px;
+    }
+
+    .home-img img {
+        max-width: 40%;
+    }
+}
+
+/* Tablets (landscape) and small desktops */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .home-content {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: auto;
+        padding: 150px;
+    }
+
+    .home-img img {
+        max-width: 30%;
+    }
+}
+
+/* Desktops and larger devices */
+@media only screen and (min-width: 1025px) {
+    .home-content {
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 80px 200px;
+        padding: 200px;
+    }
+
+    .home-img img {
+        max-width: 25%;
+    }
+}
