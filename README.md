@@ -1,6 +1,7 @@
 # Anthony's Portfolio
 
 ## Introduction
+![Screenshot 2024-07-15 005311](https://github.com/user-attachments/assets/fa36393b-2717-4526-a1a8-9217b765a69a)
 
 A brief introduction about yourself and your portfolio. You can include your professional background, your interests, and what technologies you specialize in.
 
